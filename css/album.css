@@ -1,0 +1,92 @@
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color:#800080!important;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: #800080!important;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+  background-color:#800080!important;
+}
+
+
+.img-sobre{
+  justify-content: center;
+  margin-top: 20px;
+
+}
+
+.img-insta{
+  justify-content: center;
+  margin-top: 20px;
+
+}
+
+.img-blog{
+  justify-content: center;
+  margin-top: 20px;
+
+}
+
+.img-emilly{
+  justify-content: center;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.img-karina{
+  justify-content: center;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+}
+
+.img-celenny{
+  justify-content: center;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+}
+
+.img-emilia{
+  justify-content: center;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+}
+
+.img-vitoria{
+  justify-content: center;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+}
+
+.img-grazi{
+  justify-content: center;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+}
