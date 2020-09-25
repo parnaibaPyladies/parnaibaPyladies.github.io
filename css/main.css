@@ -233,7 +233,7 @@ footer{
       }
 
     .nav-links{
-        position: absolute;
+        position: fixed;
         right: -230px;
         margin-left: 100px;
         /*
