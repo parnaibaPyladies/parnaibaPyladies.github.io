@@ -1,0 +1,47 @@
+@media (min-width: 1670px )  and (max-width: 3840px){
+
+  
+
+    .img-fluid{
+        margin-right: 37px;
+    }
+
+    .logo{
+        color: white;
+        font-size: 60px;
+        margin-right: 300px;
+    }
+
+    .logo h4{
+        margin-right: 200px;
+        font-size: 35px;
+    }
+
+    .logo-img{
+        margin-left: 50%;
+    }
+
+    .sidebar{
+        width: 140%;
+    }
+
+    .sidebar p{
+        width: 140%;
+    }
+
+    .content-inner{
+        margin-top: 20px;
+    }
+
+    .content-inner h1{
+        margin-left: 50%;
+    }
+    
+    .nav-links li{
+        margin-top: 25px;
+    }
+   
+
+
+
+}

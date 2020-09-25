@@ -2,6 +2,7 @@
 
 <head>
   <link rel="stylesheet" type="text/css" href="./css/main.css">
+  <link rel="stylesheet" type="text/css" href="./css/desktop.css">
   <link href="./css/album.css" rel="stylesheet">
   <link href="./css/carousel.css" rel="stylesheet">
   <meta charset="utf-8">
@@ -9,6 +10,7 @@
   <link rel="stylesheet" media="screen and (max-width: 1024px)" href="./css/main.css" />
   <link rel="stylesheet" media="screen and (max-width: 768px)" href="./css/main.css" />
   <link rel="stylesheet" media="screen and (max-width: 769px)" href="./css/main.css" />
+  <link rel="stylesheet" media="(min-width: 1670px) and (max-width: 3840px)" href="./css/main.css" />
   <link rel="icon" href="./img/icons/logo-favicon.ico">
   <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
@@ -50,6 +52,14 @@
       margin-left: 0;
     }
 
+    @media only screen and (max-width: 600px){
+      .bg-light{
+        width: 80%;
+        margin-left: 10%;
+      }
+
+    }
+
     @media (min-width: 768px) {
       .bd-placeholder-img-lg {
         font-size: 3.5rem;
@@ -71,16 +81,11 @@
     <div class="logo">
       <h4>PyLadies Parnaiba</h4>
     </div>
-        <ul class="nav-links">
-          <li><a href="https://pyladiesparnaiba.carrd.co/">Sobre</a></li>
-          <li><a href="#galeria">Galeria</a></li>
-          <li><a href="https://github.com/parnaibaPyladies/materiais">Materiais</a></li>
-        </ul>
-        <div class="info">
-          <div class="linha1"></div>
-          <div class="linha2"></div>
-          <div class="linha3"></div>
-        </div>
+    <ul class="nav-links">
+      <li><a href="https://pyladiesparnaiba.carrd.co/">Sobre</a></li>
+      <li><a href="#galeria">Galeria</a></li>
+      <li><a href="https://github.com/parnaibaPyladies/materiais">Materiais</a></li>
+    </ul>
        </nav>
 
        <script src="./js/app.js">

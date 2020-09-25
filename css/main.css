@@ -3,22 +3,35 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-
+    text-align: center;
 }
 
 body{
     background: linear-gradient(90deg, rgba(131,58,180,1) 21% , rgba(253,29,184,1) 100%);
     height: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
     width: 100%;
+    overflow-x: hidden; 
     background-repeat: no-repeat;
 }
 
 @media only screen and (max-width: 600px){
-    body{
+    html,body{
         background: linear-gradient(90deg, rgba(131,58,180,1) 21% , rgba(253,29,184,1) 100%);
-        height: 100%;
+        height: 200%;
         width: 165%;
         background-repeat: no-repeat;
+        overflow-x: hidden; 
+    }
+
+    nav{
+        top: 0;
+    }
+
+    .nav-links{
+        margin-left: 100%;
     }
     
     
@@ -33,10 +46,11 @@ body{
     .nav-links li{
         list-style: none;
     }
+
     .frase-1{
         background-color: white;
         height: 120px;
-        margin-left: 140px;
+        margin-left: 160px;
         margin-top: 80px;
         width: 80%;
         -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
@@ -78,14 +92,6 @@ body{
     margin-left: 160px;
 }
 
-@media (min-width: 1170px) {
-    .content-menu {
-        max-width: 1170px;
-        text-align: center;
-        padding: 0;
-    }
-}
-
 .sidebar{
     float:right;
     margin-left: 100px;
@@ -102,12 +108,22 @@ body{
         max-width: 1170px;
         padding: 0;
     }
+    .content-menu {
+        max-width: 1170px;
+        text-align: center;
+        padding: 0;
+    }
 }
 
 .main{
     margin-left: auto;
     text-align: center;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    padding-top: 20px;
     background: linear-gradient(90deg, rgba(131,58,180,1) 21% , rgba(253,29,184,1) 100%);
+    background-repeat: no-repeat;
 }
 
 
@@ -220,14 +236,17 @@ footer{
         position: absolute;
         right: -230px;
         margin-left: 100px;
+        /*
         height: 92vh;
         top: 8vh;
         display: flex;
         flex-direction: column;
         align-items: center;
+        */
         background-color: #800080;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
+        
     }
 
     .nav-links li{
@@ -289,7 +308,6 @@ footer{
 
 .frase-1{
     background-color: white;
-    height: 120px;
     margin-left: 340px;
     margin-top: 80px;
     width: 50%;
@@ -371,6 +389,10 @@ footer{
 
 @media only screen and (max-width: 769px ) {
 
+    html,body{
+        overflow-x: hidden; 
+    }
+
     .btn-menu {
         width: 45px;
         height: 40px; 
@@ -389,6 +411,7 @@ footer{
     main{
         margin-left: auto;
         text-align: center;
+        width: 103%;
         background: linear-gradient(90deg, rgba(131,58,180,1) 21% , rgba(253,29,184,1) 100%);
 
       }
@@ -405,7 +428,7 @@ footer{
     .logo{
         color: white;
         font-size: 25px;
-        margin-right: 200px;
+        margin-right: 600px;
     }
 
     .logo-img{
@@ -421,7 +444,7 @@ footer{
         font-family: 'Pacifico', cursive;
         font-size: 40px;
         text-align: center;
-        margin-right: 20%;
+        margin-right: 10%;
     }
 
     .sidebar p{
@@ -436,8 +459,8 @@ footer{
 
       .frase-1{
         background-color: white;
-        height: 180px;
-        margin: 65px;
+        height: 120px;
+        margin-left: 10%;
         width: 80%;
         -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
         -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
@@ -459,7 +482,7 @@ footer{
         text-align: center;
         font-family: 'Alata', sans-serif;
         font-size: 2.75rem;
-        margin-left: 200px;
+        margin-left: 430px;
         margin-right: 390px;
         margin-top:150px;
         margin-bottom: 95px;
@@ -483,12 +506,26 @@ footer{
     }
 
     .nav-links{
+        /*
         position: absolute;
         z-index: 9999;
         display: flex;
         justify-content: space-around;
         width: 50%;
+        right: -100px;
+        */
     }
 
+    .nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 8vh;
+        height: 25%;
+        top: 0;
+        background-color: #800080!important;
+        font-family: 'Bree Serif', Serif;
+        width: 107%
+    }
 
     }
