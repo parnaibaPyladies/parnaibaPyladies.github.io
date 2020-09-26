@@ -17,14 +17,6 @@
         background-repeat: no-repeat;
     }
 
-    .nav-links{
-        position: absolute;
-        z-index: 9999;
-        display: flex;
-        justify-content: space-around;
-        width: 50%;
-    }
-
     .nav{
        top: 0;
     }

@@ -505,27 +505,5 @@ footer{
         text-align: center;
     }
 
-    .nav-links{
-        /*
-        position: absolute;
-        z-index: 9999;
-        display: flex;
-        justify-content: space-around;
-        width: 50%;
-        right: -100px;
-        */
-    }
-
-    .nav{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        min-height: 8vh;
-        height: 25%;
-        top: 0;
-        background-color: #800080!important;
-        font-family: 'Bree Serif', Serif;
-        width: 107%
-    }
 
     }
