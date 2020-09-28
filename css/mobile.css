@@ -194,4 +194,116 @@
         font-size: 10px;
     }
 
+   
+
+    .time-2{
+        font-size: 30px;
+        margin-top: 10%;
+    }
+
+    .circulo-img-emilly {
+        width: 60%;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 70px;
+        margin-bottom: 38px;
+        background-color: #800080;
+       
+    }
+    
+    .circulo-img-karina {
+        border-radius: 50%;
+        width: 60%;
+        margin: 70px;
+        overflow: hidden;
+        margin-bottom: 38px;
+        background-color: #800080;
+     
+    }
+    
+    .circulo-img-emilia {
+        border-radius: 50%;
+        width: 60%;
+        overflow: hidden;
+        height: 43%;
+        margin: 70px;
+        margin-bottom: 38px;
+        background-color: #800080;
+        
+    }
+    
+    .circulo-img-vitoria {
+        border-radius: 50%;
+        width: 60%;
+        overflow: hidden;
+        margin: 70px;
+        height: 39%;
+        margin-bottom: 38px;
+        background-color: #800080;
+    
+    }
+    
+    .circulo-img-celeny{
+        border-radius: 50%;
+        width: 60%;
+        overflow: hidden;
+        margin: 70px;
+        height: 35%;
+        margin-bottom: 38px;
+        background-color: #800080;
+       
+    }
+    
+    .circulo-img-grazi{
+        border-radius: 50%;
+        width: 60%;
+        overflow: hidden;
+        margin: 70px;
+        height: 35%;
+        margin-bottom: 38px;
+        background-color: #800080;
+    }
+    
+    .img-emilly{
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+      }
+      
+      
+      .img-karina{
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+      
+      }
+      
+      .img-celenny{
+        justify-content: center;
+        margin-top: 15%;
+        margin-bottom: 20px;
+      
+      }
+      
+      .img-emilia{
+        justify-content: center;
+        margin-top: 15%;
+        margin-bottom: 30px;
+      
+      }
+      
+      .img-vitoria{
+        justify-content: center;
+        margin-top: 15%;
+        margin-bottom: 30px;
+      
+      }
+      
+      .img-grazi{
+        justify-content: center;
+        margin-top: 15%;
+        margin-bottom: 30px;
+      
+      }
+
 }

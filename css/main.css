@@ -330,8 +330,14 @@ footer{
     font-family: 'Alata', sans-serif;
     font-size: 50px;
     margin-top: 150px;
-    margin-bottom: 95px;
+    margin-bottom: -20px;
 
+}
+
+h3.time-2{
+    background-color: #e0e0e0;
+    height: 120px;
+    
 }
 
 .time-2{
@@ -354,6 +360,63 @@ footer{
     margin-bottom: 95px;
 }
 
+.circulo-img-emilly {
+	width: 50%;
+	border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 38px;
+    background-color: #800080;
+    margin-left: 25%;
+}
+
+.circulo-img-karina {
+	width: 50%;
+    border-radius: 50%;
+    margin-bottom: 38px;
+	overflow: hidden;
+    background-color: #800080;
+    margin-left: 25%;
+}
+
+.circulo-img-emilia {
+	width: 50%;
+	border-radius: 50%;
+    overflow: hidden;
+    height: 40%;
+    background-color: #800080;
+    margin-left: 25%;
+}
+
+.circulo-img-vitoria {
+	width: 50%;
+	border-radius: 50%;
+    overflow: hidden;
+    height: 40%;
+    background-color: #800080;
+    margin-left: 25%;
+}
+
+.circulo-img-celeny{
+	width: 50%;
+	border-radius: 50%;
+    overflow: hidden;
+    height: 38%;
+    margin: 0;
+    margin-top: 15px;
+    background-color: #800080;
+	margin-left: 25%;
+}
+
+.circulo-img-grazi{
+	width: 50%;
+	border-radius: 50%;
+    overflow: hidden;
+    height: 40%;
+    background-color: #800080;
+	margin-left: 25%;
+}
+
+
 .container-galeria{
     display: flex;
     background-repeat: no-repeat;
@@ -375,6 +438,7 @@ footer{
 .row{
     display: flex;
     justify-content: center;
+    background-color: #e0e0e0;
     flex-wrap: wrap;
 }
 
