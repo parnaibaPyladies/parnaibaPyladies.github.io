@@ -1,9 +1,12 @@
 @media (min-width: 1670px )  and (max-width: 3840px){
 
-  
 
     .img-fluid{
         margin-right: 37px;
+    }
+
+    .frase-1{
+        margin-left: 25%;
     }
 
     .logo{
@@ -18,7 +21,7 @@
     }
 
     .logo-img{
-        margin-left: 50%;
+      
     }
 
     .sidebar{
@@ -40,7 +43,6 @@
     .nav-links li{
         margin-top: 25px;
     }
-   
 
 
 
