@@ -128,23 +128,45 @@ body{
 
 
 nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     min-height: 8vh;
     background-color: #800080!important;
     font-family: 'Bree Serif', Serif;
+    display: flex;
     width: 100%;
+    height: 80px;
+}
+
+
+
+label, #check, ul.nav-links-mobile{
+    display: none;
+}
+
+ul.nav-links-desktop{
+    list-style: none;
+    width: 100%;
+    display: flex;
+}
+
+ul.nav-links-desktop li{
+    cursor: pointer;
+    flex: 1;
+    text-align: center;
+}
+
+ul.nav-links-desktop li a {
+    color: white;
 }
 
 .logo{
     color: white;
     font-size: 25px;
-    margin-right: 285px;
 }
 
 .logo-img{
-    margin-left: 60px;
+  display: flex;
+  margin: 40px;
+  top: 0;
 }
 
 ul.nav-links{
@@ -572,6 +594,14 @@ h3.time-2{
         font-size: 22px;
         margin-left: 10px;
         text-align: center;
+    }
+
+    ul.nav-links-desktop{
+        display: none;
+    }
+
+    label, ul.nav-links-mobile{
+        display: block;
     }
 
     .nav-links{
