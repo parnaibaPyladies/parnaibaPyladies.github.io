@@ -31,19 +31,26 @@
 
     .logo-img{
         margin-left: 10px;
-    }   
+    } 
+    
+    .mobile{
+       color: white!important;
+    }
 
     label{
         font-size: 30px;
         padding-left: 10px;
         margin-left: 300px;
         color: white;
+        display: flex!important;
         margin-top: -13%;
     }
 
     ul.nav-links-mobile{
         width: 100%;
         background-color:  #800080!important;
+        display: flex!important;
+        list-style: none;
         margin-top: -280px;
     }
 
@@ -66,19 +73,7 @@
         margin-top: 0;
     }
 
-    .nav-links a{
-        color:white;
-        text-decoration: none;
-        letter-spacing: 3px;
-        font-weight: bold;
-        font-size: 25px;
-        margin-left: 30px;
-    }
-
-
-    .nav-links li{
-        list-style: none;
-    }
+   
 
     .frase-1{
         background-color: white;

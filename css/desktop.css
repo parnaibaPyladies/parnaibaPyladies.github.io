@@ -9,6 +9,26 @@
         margin-left: 25%;
     }
 
+    label, #check, ul.nav-links-mobile{
+        display: none;
+    }
+    
+    ul.nav-links-desktop{
+        list-style: none;
+        width: 100%;
+        display: flex;
+    }
+    
+    ul.nav-links-desktop li{
+        cursor: pointer;
+        flex: 1;
+        text-align: center;
+    }
+    
+    ul.nav-links-desktop li a {
+        color: white;
+    }
+
     .logo{
         color: white;
         font-size: 60px;
