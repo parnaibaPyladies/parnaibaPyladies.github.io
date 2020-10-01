@@ -135,16 +135,15 @@ nav{
     height: 80px;
 }
 
-.mobile{
-    opacity: 0;
-}
-
 ul.nav-links-desktop{
     list-style: none;
     width: 100%;
     display: flex;
 }
 
+.mobile, #check{
+    display: none;
+}
 
 #check, ul.nav-links-mobile{
     display: none;
