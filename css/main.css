@@ -351,7 +351,7 @@ h3.time-2{
     color: white;
     text-align: center;
     font-family: 'Alata', sans-serif;
-    font-size: 2.75rem;
+    font-size: 70px;
     margin-left: 450px;
     margin-right: 390px;
     margin-top:150px;
@@ -438,6 +438,24 @@ h3.time-2{
     justify-content: center;
     background-color: #e0e0e0;
     flex-wrap: wrap;
+}
+
+.card-img{
+    overflow: hidden;
+}
+
+.card-img img{
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    height: 350px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.card-img:hover img{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 [data-anime]{

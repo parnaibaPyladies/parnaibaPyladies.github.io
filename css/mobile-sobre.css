@@ -1,0 +1,161 @@
+@media screen and (max-width: 360px){
+
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    
+    html,body{
+        background: linear-gradient(90deg, rgba(131,58,180,1) 21% , rgba(253,29,184,1) 100%);
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        width: 100%;
+        overflow-x: hidden; 
+        background-repeat: no-repeat;
+    }
+
+
+    .logo{
+        color: white;
+        font-size: 15px;
+    }
+
+    h4.logo-img{
+        color: white;
+        font-size: 15px;
+        margin-right: 10%;
+    }
+
+    .logo-img{
+        margin-left: 10px;
+    } 
+
+    .logo-img h4{
+        margin-left: 10px; margin-top: 30px; color: white;
+    }
+    
+    .mobile{
+       color: white!important;
+    }
+
+    main{
+        width: 250%;
+    }
+
+    .img-pyladies{
+        width: 300px;
+        height: 300px;
+        margin-top: 25px;
+    }
+
+    .about-inicial{
+        margin-top: -25%;
+        margin-right: 60%;
+        font-family: 'Pacifico', cursive;
+        font-size: 15px;
+        color: white;
+        height: 35%;
+    }
+
+    .about-inicial p{
+        font-size: 40px;
+        width: 100%;
+        margin-top: 200%;
+    }
+    
+    .about-parnaiba{
+        margin-right: 60%;
+        margin-top: -40%;
+        font-family: 'Pacifico', cursive;
+        
+        font-size: 35px;
+        height: 50%;
+        color: white;
+    }
+
+    .about-parnaiba p{
+        margin-top: 250%;
+        height: 50px;
+        font-size: 35px;
+    }
+
+    .about-parnaiba h2{
+        margin: 50px;
+        margin-top: 100px;
+    }
+    
+    .img-liza{
+        background: linear-gradient(90deg, rgba(131,58,180,1) 21%, rgba(253,29,184,1) 100%);
+        margin-top: 120%;
+        margin-right: 50%;
+    }
+    
+    .chamada{
+        color: white;
+        margin-top: 60px;
+        margin-bottom: 80px;
+        font-family: 'Pacifico', cursive;
+        font-size: 15px;
+        width: 40%;
+        height: 170px;
+    }
+
+    footer{
+        bottom: 0px;
+        width: 100%;
+        height: 40%;
+        background-color: #800080;
+        color: white;
+}
+
+    .main-content{
+        height: 100%;
+        text-align: center;
+        flex-direction: column;
+        bottom: 0px;
+}
+
+    .main-content .box{
+        flex-basis: 50%;
+        padding: 10px 20px;
+}
+
+    .content{
+        display: inline;
+        justify-content: space-around;
+        text-align: center;
+}
+
+    .right-box{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .right-box h2{
+        font-size: 15px;
+    }
+
+    .center-box{
+        font-size: 15px;
+    }
+
+    .center-box h2{
+        font-size: 15px;
+    }
+    
+    .social{
+        font-size: 10px;
+    }
+
+    .social h6{
+        font-size: 10px;
+    }
+
+
+
+}
